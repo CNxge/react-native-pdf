@@ -284,6 +284,7 @@ export default class PdfView extends Component {
                     this._countPageNum();
                 }}
                 scrollEnabled={this.state.scrollEnabled}
+                ListFooterComponent={this.props.ListFooterComponent}
             />
         );
 
